@@ -16,7 +16,7 @@ pub struct AppState {
 impl AppState {
     pub fn new() -> Self {
         Self {
-            ip_cast: "192.168.1.16".to_string(),
+            ip_cast: "192.168.1.16:9999".to_string(),
             lien_http: "...".to_string(),
             logs: vec![("En attente ...".to_string(), false)],
             should_quit: false,
